@@ -3,6 +3,10 @@
 This project demonstrates a configuration-driven workflow engine integrated with a dynamic request controller in NestJS.
 The goal is to centralize and standardize request validation, security checks, and request preprocessing without duplicating logic across multiple controllers.
 
+
+Demo Project integrated with 1 feature of this service, to show modular_workflow ability to be integrated in other services easily: https://github.com/C-0602/demo_modularworkflow_integrated
+
+
 The solution contains two core parts:
 
 🔹 Modular Workflow Engine
@@ -10,15 +14,10 @@ The solution contains two core parts:
 A pluggable, configurable system that executes a sequence of workflow steps before any request is processed.
 
 Workflow modules include:
-
 Schema Validation
-
 Enum Validation
-
 Token Verification
-
 JWT Verification
-
 Session Cookie Validation
 
 Each module is independent and easily extendable.
@@ -155,5 +154,6 @@ High reusability
 Centralized governance
 Clean business logic
 Easy extension
+
 
 The POSTMAN.md guide ensures all workflow behaviors are verifiable without external dependencies.
